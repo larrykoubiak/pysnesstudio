@@ -1,0 +1,103 @@
+{
+    "__CPU__": true,
+    "name": "Ricoh5A22",
+    "registers": {
+        "AB": {
+            "__Register__": true,
+            "fields": {
+                "H": "ABH",
+                "L": "ABL"
+            },
+            "name": "AB",
+            "type": "reg16"
+        },
+        "C": {
+            "__Register__": true,
+            "fields": {
+                "H": "B",
+                "L": "A"
+            },
+            "name": "C",
+            "type": "reg16"
+        },
+        "D": {
+            "__Register__": true,
+            "fields": {
+                "H": "DH",
+                "L": "DL"
+            },
+            "name": "D",
+            "type": "reg16"
+        },
+        "DB": {
+            "__Register__": true,
+            "fields": {},
+            "name": "DB",
+            "type": "reg8"
+        },
+        "DBR": {
+            "__Register__": true,
+            "fields": {},
+            "name": "DBR",
+            "type": "reg8"
+        },
+        "E": {
+            "__Register__": true,
+            "fields": {},
+            "name": "E",
+            "type": "bitflag"
+        },
+        "P": {
+            "__Register__": true,
+            "fields": {
+                "B0": "P_C",
+                "B1": "P_Z",
+                "B2": "P_I",
+                "B3": "P_D",
+                "B4": "P_X",
+                "B5": "P_M",
+                "B6": "P_V",
+                "B7": "P_N"
+            },
+            "name": "P",
+            "type": "bitfield8"
+        },
+        "PC": {
+            "__Register__": true,
+            "fields": {
+                "B": "PBR",
+                "H": "PCH",
+                "L": "PCL"
+            },
+            "name": "PC",
+            "type": "reg24"
+        },
+        "S": {
+            "__Register__": true,
+            "fields": {
+                "H": "SH",
+                "L": "SL"
+            },
+            "name": "S",
+            "type": "reg16"
+        },
+        "X": {
+            "__Register__": true,
+            "fields": {
+                "H": "XH",
+                "L": "XL"
+            },
+            "name": "X",
+            "type": "reg16"
+        },
+        "Y": {
+            "__Register__": true,
+            "fields": {
+                "H": "YH",
+                "L": "YL"
+            },
+            "name": "Y",
+            "type": "reg16"
+        }
+    }
+}
